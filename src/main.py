@@ -8,6 +8,8 @@ from .logging import configure_logging, LogLevels
 
 configure_logging(LogLevels.info)
 
+""" Configure FASTAPI """
+
 app = FastAPI()
 
 """ Only uncomment below to create new tables, 
